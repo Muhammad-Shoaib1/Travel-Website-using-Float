@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/general.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>About Us Page</title>
+</head>
+
+<body>
+  <!-- Navbar started -->
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo lh t-light"><i>T&T</i></h1>
+      <ul>
+        <li class="nav-item"><a href="./Home.html">Home</a></li>
+        <li class="nav-item"><a href="./About.html">About</a></li>
+        <li class="nav-item"><a href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Navbar Ended -->
+  <div class="contact-page">
+    <div class="container">
+      <div class="page-wrapper">
+        <div class="company-add">
+          <div class="add-group">
+            <i class="fa-solid fa-location-dot fa-3x t-red"></i>
+            <h2 class="mh t-gray">Address</h2>
+            <p>Landikotal, khyber Pakhthunkhwa , pakistan </p>
+          </div>
+          <div class="add-group">
+            <i class="fa-regular fa-envelope fa-3x t-red"></i>
+            <h2 class="mh t-gray">Email</h2>
+            <p>shoaibshinwari97@gmail.com</p>
+          </div>
+          <div class="add-group">
+            <i class="fa-solid fa-phone fa-3x t-red"></i>
+            <h2>Call</h2>
+            <p>+92 333 6707572</p>
+          </div>
+          <img src="./Images/company-img.jpg" alt="">
+        </div>
+        <!-- Form Section -->
+        <form action="" class="form">
+          <h1 class="lh t-black">
+            Contact Us
+          </h1>
+          <p class="t-gray">Let us know your questions, suggestions and concerns</p>
+          <div class="form-groups">
+            <label for="username">username <sup>*</sup></label>
+            <input type="text" placeholder="Muhammad Shoaib" id="username" required>
+          </div>
+          <div class="form-groups">
+            <label for="email">Email <sup>*</sup></label>
+            <input type="email" placeholder="example@gmail.com" id="email" required>
+          </div>
+          <div class="form-groups">
+            <label for="phone">Phone Number <sup>*</sup></label>
+            <input type="tel" id="phone" name="phone" placeholder="+92 333 6707572"
+              pattern="\+?\d{1,4}\s?\d{1,4}\s?\d{4,}" required>
+          </div>
+          <div class="form-groups">
+            <label for="message">Message <sup>*</sup></label>
+            <textarea name="message" placeholder="Write here" id="message"></textarea>
+          </div>
+          <button type="submit">submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </main>
+  <!-- Footers Section -->
+  <footer class="footer">
+    <div class="social">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+    <p class="t-light">Tours and Travel Agency &copy; 2024, All Rights reserved</p>
+  </footer>
+</body>
