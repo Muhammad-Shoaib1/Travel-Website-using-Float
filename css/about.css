@@ -158,22 +158,28 @@ section.count-sec .count h1.t-red {
     width: 100%;
   }
 }
+
 @media (max-width: 486px) {
-  :root{
+  :root {
     font-size: 50%;
   }
+
   nav.navbar ul,
   nav.navbar .logo {
     float: none;
     display: block;
     text-align: center;
   }
-  .count h1.lh{
+
+  .count h1.lh {
     font-size: 2rem;
   }
 }
-@media (max-width: 404px){
-  .count .lh, .count h2{
+
+@media (max-width: 404px) {
+
+  .count .lh,
+  .count h2 {
     font-size: 1rem;
   }
 }

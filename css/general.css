@@ -75,8 +75,8 @@ i {
   border-color: pink;
 }
 
-@media(orientation: landscape) and (max-height: 500px){
-  .header{
+@media(orientation: landscape) and (max-height: 500px) {
+  .header {
     height: 90vmax;
   }
 }
